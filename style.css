@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 15%;
+    margin-top: 50px;
+}
+
+#welcome {
+
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: aliceblue;
+    background: linear-gradient(#60ebeb 10%, #27ae60 90%);
+    opacity: 0.85;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300px;
+
+
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300px;
+
+
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300px;
+
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+
+
+
+}
+
+.line {
+
+    height: 6px;
+    width: 70px;
+    background-color: darkblue;
+    margin: 8px auto;
+}
+
+p {
+
+    max-width: 450px;
+    margin: 20px auto;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.menu {
+    margin-top: 0px;
+    top: 0px;
+    position: fixed;
+    list-style: none;
+    cursor: pointer;
+    z-index: 10;
+    background: white;
+
+    width: 100%;
+
+}
+
+.links {
+    display: inline;
+    color: bisque;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+
+    background-color: chocolate;
+    font-size: 25px;
+}
+
+#videos {
+    text-align: center;
+
+}
+
+#work {
+    text-align: center;
+}
+
+#writings {
+    text-align: center;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.article:hover {
+    color: aqua;
+}
+
+#writings a {
+    text-decoration: underline ! important;
+    text-shadow: none ! important;
+    color: blue ! important;
+}
+
+#contacts {
+
+    background: firebrick;
+}
+
+#contacts iframe {
+
+    width: 100%;
+}
+
+.contact_1 a {
+    color: aliceblue;
+    text-shadow: none;
+
+}
+
+
+.contact_1 h3 {
+
+    display: inline;
+
+}
